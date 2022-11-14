@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Random Joke",
+  "description": "Get a random joke every time you open the extension. Any type of joke will be given.",
+  "version": "1.0",
+  "action": {
+    "default_title": "Click For A Random Joke",
+    "default_icon": "icon.png",
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "https://v2.jokeapi.dev/"
+  ]
+}
